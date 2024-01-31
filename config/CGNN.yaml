@@ -1,0 +1,142 @@
+# Test Acc: 0.7953947368421053 +- 0.018243979768239525
+chameleon:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  weight_decay: 0
+  num_epochs: 10000
+
+  lr: 0.005
+  hidden_dim: 128
+  num_layers: 5
+  jk: "max"
+  patience: 600
+  normalize: True
+
+# Test Acc: 0.751969260326609 +- 0.02418308392324237
+squirrel:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  weight_decay: 0
+  num_epochs: 10000
+
+  lr: 0.01
+  hidden_dim: 128
+  num_layers: 4
+  jk: "max"
+  patience: 400
+  normalize: True
+
+# Test Acc: 0.8026869806094183 +- 0.006576307970333241
+citeseer: 
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  weight_decay: 0
+  num_epochs: 10000
+
+  lr: 0.01
+  hidden_dim: 128
+  num_layers: 2
+  jk: "max"
+  patience: 400
+  normalize: True
+
+# Test Acc: 0.7701910828025478 +- 0.006654078206352074
+cora_ml: 
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  weight_decay: 0
+  num_epochs: 10000
+
+  lr: 0.01
+  hidden_dim: 64
+  num_layers: 2
+  jk: "max"
+  patience: 400
+  normalize: True
+
+# Test Acc: 0.9016309012875536 +- 0.005750361168487082
+# photo: 
+#   undirected: False
+#   self_loops: False
+#   transpose: False
+#   dropout: 0.00005
+#   weight_decay: 0
+#   num_epochs: 10000
+
+#   lr: 0.01
+#   hidden_dim: 64
+#   num_layers: 2
+#   jk: "max"
+#   patience: 400
+#   normalize: True
+
+# Test Acc: 0.9030185979971389 +- 0.004744576473490544
+# photo: 
+#   undirected: False
+#   self_loops: False
+#   transpose: False
+#   dropout: 0
+#   weight_decay: 0.00005
+#   num_epochs: 10000
+
+#   lr: 0.01
+#   hidden_dim: 128
+#   num_layers: 2
+#   jk: "cat"
+#   patience: 400
+#   normalize: True
+
+# Test Acc: 0.9039771101573677 +- 0.004010726488168979
+# photo: 
+#   undirected: False
+#   self_loops: False
+#   transpose: False
+#   dropout: 0.5
+#   weight_decay: 0
+#   num_epochs: 10000
+
+#   lr: 0.01
+#   hidden_dim: 64
+#   num_layers: 2
+#   jk: "cat"
+#   patience: 400
+#   normalize: True
+
+# Test Acc: 0.9040772532188841 +- 0.0032099701721546533
+photo: 
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0.5
+  weight_decay: 0
+  num_epochs: 10000
+
+  lr: 0.005
+  hidden_dim: 512
+  num_layers: 2
+  jk: "cat"
+  patience: 400
+  normalize: True
+
+# photo: 
+#   undirected: False
+#   self_loops: False
+#   transpose: False
+#   dropout: 0.5
+#   weight_decay: 0
+#   num_epochs: 10000
+
+#   lr: 0.005
+#   hidden_dim: 512
+#   num_layers: 2
+#   jk: "max"
+#   patience: 400
+#   normalize: True
